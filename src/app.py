@@ -86,6 +86,7 @@ activities = {
         "max_participants": 14,
         "participants": []
     }
+    
 }
 
 
