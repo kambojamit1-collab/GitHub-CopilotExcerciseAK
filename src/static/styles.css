@@ -1,3 +1,64 @@
+.participants-section {
+  margin-top: 18px;
+  background: #f0f4ff;
+  border-radius: 4px;
+  padding: 12px 16px 10px 16px;
+  border-left: 4px solid #1a237e;
+}
+
+.participants-section strong {
+  color: #1a237e;
+  font-size: 1.05em;
+}
+
+.participants-list {
+  margin: 8px 0 0 0;
+  padding-left: 0;
+  list-style: none;
+  color: #3949ab;
+  font-size: 0.98em;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.participant-name {
+  flex: 1;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-size: 1.2em;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.delete-participant:hover {
+  background: #ffebee;
+}
+
+.participants-section.empty {
+  background: #fff8e1;
+  border-left: 4px solid #ffb300;
+}
+
+.no-participants {
+  color: #bdbdbd;
+  font-style: italic;
+  margin-left: 6px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
